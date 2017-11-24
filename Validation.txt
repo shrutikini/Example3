@@ -1,0 +1,23 @@
+String Validation :- pattern= "^[a-zA-Z\s]+$"
+
+String Number Validation :- pattern = "^[a-zA-Z\0-9\s]+$"
+
+Number Validation :- pattern = "^[0-9]+$"
+
+Mobile Validation :- pattern = "^[0-9\+\s\-]+$"
+
+Email Validation :- pattern = "^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"
+
+Age Validation :- pattern = "^\d{1,2}$"
+
+Time Validation :- pattern = 
+
+Amount Validation :- pattern = "^[0-9\.]+$"
+
+Restrict Character Validation :- pattern = "^[a-zA-Z0-9\s\`\!\@\#\$\%\&\*\(\)\-\+\=\[\]\;\\\:\""\<\>\|\.\?\/_\,"
+
+Restrict Character Validation With No Space :- pattern = "^[a-zA-Z0-9\`\!\@\#\$\%\&\*\(\)\-\+\=\[\]\;\\\:\""\<\>\|\.\?\/_\,"
+
+AlphaNumeric Characters :- pattern = "/^[0-9a-zA-Z]+$/"
+
+Decimal Number:- "^[0-9]\d*(\.\d+)?$"
